@@ -1,0 +1,17 @@
+digraph MyGraph {
+lightred -> brightwhite [label= "1"];
+lightred -> mutedyellow [label= "2"];
+darkorange -> brightwhite [label= "3"];
+darkorange -> mutedyellow [label= "4"];
+brightwhite -> shinygold [label= "1"];
+mutedyellow -> shinygold [label= "2"];
+mutedyellow -> fadedblue [label= "9"];
+shinygold -> darkolive [label= "1"];
+shinygold -> vibrantplum [label= "2"];
+darkolive -> fadedblue [label= "3"];
+darkolive -> dottedblack [label= "4"];
+vibrantplum -> fadedblue [label= "5"];
+vibrantplum -> dottedblack [label= "6"];
+fadedblue -> noother [label= "0"];
+dottedblack -> noother [label= "0"];
+}

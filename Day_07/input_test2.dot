@@ -1,0 +1,9 @@
+digraph MyGraph {
+shinygold -> darkred [label= "2"];
+darkred -> darkorange [label= "2"];
+darkorange -> darkyellow [label= "2"];
+darkyellow -> darkgreen [label= "2"];
+darkgreen -> darkblue [label= "2"];
+darkblue -> darkviolet [label= "2"];
+darkviolet -> noother [label= "0"];
+}
